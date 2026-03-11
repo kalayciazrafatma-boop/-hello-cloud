@@ -6,6 +6,6 @@ def home():
   return "Merhaba, Buluttan Selam!"
 
 
-app.route('/about')
+@app.route('/about')
 def about():
   return "Sayfayı görüntüle!"
